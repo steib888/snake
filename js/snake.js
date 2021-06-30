@@ -26,7 +26,6 @@ class Snake{
 				this.direction = { x: -1,
 								y: 0}
 			}
-			this.move()
 		}
 		else if (event.code == this.k_right) {
 			if (this.body.length > 1) {
@@ -38,7 +37,6 @@ class Snake{
 				this.direction = { x: 1,
 								y: 0}
 			}
-			this.move()
 		}
 		else if (event.code == this.k_up) {
 			if (this.body.length > 1) {
@@ -50,7 +48,6 @@ class Snake{
 				this.direction = { x: 0,
 								y: -1}
 			}
-			this.move()
 		}
 		else if (event.code == this.k_down) {
 			if (this.body.length > 1) {
@@ -62,7 +59,6 @@ class Snake{
 				this.direction = { x: 0,
 								y: 1}
 			}
-			this.move()
 		}
 	}
 

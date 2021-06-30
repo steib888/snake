@@ -87,7 +87,7 @@ function drawMiniMap() {
 }
 
 function gameLoop() {
-//	snake.move();
+	snake.move();
 	drawMap();
 	drawMiniMap();
 }
